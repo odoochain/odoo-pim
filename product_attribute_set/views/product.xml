@@ -25,7 +25,7 @@
                 <page
                     name="product_attributes"
                     string="Attributes"
-                    attrs="{'invisible' : [('attribute_set_id', '=', False)]}"
+                    invisible="attribute_set_id == False"
                 >
                     <separator name="attributes_placeholder" />
                 </page>
